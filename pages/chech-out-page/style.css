@@ -1,0 +1,53 @@
+body {
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+.innerAddressContainer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+}
+.gpsIcon {
+  background-color: #f3f3f3;
+  width: 36px;
+  padding: 4px;
+  border-radius: 1.5rem;
+}
+.itemImg {
+  padding: 0.5rem;
+  background-color: #f3f3f3;
+}
+.orderCounter {
+  align-self: flex-end;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: #858585;
+  color: #fff;
+  width: 36px;
+  text-align: center;
+}
+input {
+  border: none;
+}
+.promoBtn {
+  width: 55px;
+}
+.paymentBtn {
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.theEndOfPage {
+  background-color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer {
+  background: #fff;
+  padding-top: 1rem;
+}
+.itemImg {
+  padding: 0.5rem;
+  background-color: #f3f3f3;
+}
+
+header {
+  margin: 1rem;
+}
+
+.bodyPart {
+  margin-bottom: 180px;
+}
+
+.emptyBox {
+  padding-top: 12rem;
+  text-align: center;
+  display: none;
+}
+
+.insertingDatas {
+  justify-content: space-around;
+}
+.emptyBox,
+.bodyPart {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

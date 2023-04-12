@@ -1,0 +1,22 @@
+body {
+  padding: 1rem;
+  box-sizing: border-box;
+  /* background-color: #f3f3f3; */
+}
+.contentContaner {
+  background-color: #f3f3f3;
+  padding: 2rem;
+  /* border-radius: 1.5rem; */
+}
+.whitebg {
+  background: #fff;
+}
+.addingTheAddress {
+  background: #fff;
+  align-self: end;
+  padding: 0.5rem 2rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

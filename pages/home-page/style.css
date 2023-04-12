@@ -1,0 +1,140 @@
+header {
+  padding: 1rem;
+}
+body {
+  box-sizing: border-box;
+}
+
+.searchBox {
+  width: 100%;
+}
+footer.div {
+  padding: 2px;
+}
+.home {
+  color: white;
+}
+
+.brandsPart {
+  /* padding: 0 2rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.shoesBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.searchBox {
+  background: url("../../assets/search.svg") no-repeat;
+  background-position-x: 2%;
+  background-position-y: center;
+  padding: 0.5rem;
+  padding-left: 10%;
+}
+
+.left-right-margin {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.seeAllBtn {
+  border: none;
+  background: white;
+  padding: 0.5rem 0;
+}
+
+.itemBox {
+  margin: 1rem 0;
+}
+
+.scrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+.IconDiv {
+  /* padding: 0.25rem; */
+  background-color: #ececec;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.BrandIcon {
+  position: relative;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.shoeImg {
+  padding: 0.25rem;
+  height: 80%;
+  background-color: #f3f3f3;
+}
+.shoesBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  padding-bottom: 100px;
+}
+.shoesBox img {
+  background-color: #f3f3f3;
+  border-radius: 1.25rem;
+  width: 100%;
+}
+
+.seeAllBtn {
+  border: none;
+  background: white;
+  padding: 0.5rem 0;
+}
+
+.itemBox {
+  margin-bottom: 1rem;
+}
+.shoeImg {
+  padding: 0.25rem;
+  height: 80%;
+  background-color: #f3f3f3;
+}
+.gridItem {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 0.75rem;
+}
+.gridItem img {
+  background-color: #f3f3f3;
+  border-radius: 1.25rem;
+  width: 100%;
+}
+h4 {
+  margin: 0;
+}
+footer {
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.theEndOfPage {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a href="../what-do-we-do/index.html"
+      ><img src="../../assets/backButton.svg" class="m-4"
+    /></a>
+    <div class="mainPart fixFlex">
+      <img src="../../assets/logo.png" class="w-54" alt="" />
+      <form action="" class="d-flex flex-column gap-3">
+        <h1>Sign UP to your Account</h1>
+
+        <input
+          type="text"
+          class="border-0 emailInput py-2 pl-5 rounded-2"
+          name="userName"
+          id="userName"
+          class="userName"
+          placeholder="User Name"
+        />
+        <input
+          type="email"
+          class="border-0 emailInput py-2 pl-5 rounded-2"
+          name="userEmail"
+          id="userEmail"
+          class="userEmail"
+          placeholder="Email"
+        />
+
+        <input
+          type="password"
+          class="border-0 passInput py-2 rounded-2"
+          name="userPass"
+          id="UserPass"
+          placeholder="Password"
+        />
+
+        <input
+          type="password"
+          class="border-0 passInput py-2 rounded-2"
+          name="reTypedPass"
+          id="reTypedPass"
+          placeholder="Re-Type Your Password"
+        />
+
+        <a
+          class="text-center text-dark justify-content-center"
+          href="../login-page/index.html"
+        >
+          <span>Sign in</span>
+        </a>
+      </form>
+      <button
+        type="button"
+        class="btn btn-dark w-75 rounded-5 signUpBtn"
+        onclick="signUpBtn(userName,email,pass)"
+      >
+        Sign Up
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

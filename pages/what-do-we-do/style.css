@@ -1,0 +1,19 @@
+#intro-carousel .carousel-inner {
+}
+
+#intro-carousel .carousel-indicators {
+}
+
+#intro-carousel .custom-next-button {
+  border-radius: 100px;
+}
+
+#intro-carousel .carousel-item img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+#intro-carousel .carousel-item p {
+  padding: 1.2rem 1rem;
+  font-size: 1.7rem;
+}

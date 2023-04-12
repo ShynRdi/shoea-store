@@ -1,0 +1,74 @@
+.fixFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 5rem;
+}
+
+.signUpBtn {
+  position: absolute;
+  bottom: 2rem;
+}
+
+#userEmail {
+  /* width: 10px; */
+  background: url("../../assets/email.svg") no-repeat;
+  background-position-x: 2%;
+  background-position-y: center;
+  background-color: #fafafa;
+}
+
+input {
+  outline-color: black;
+}
+
+input[type="password"] {
+  background-color: #fafafa;
+}
+
+input {
+  padding-left: 10%;
+}
+
+.passInput {
+  background: url("../../assets/passwordLogo.svg") no-repeat;
+  background-position-x: 2%;
+  background-position-y: center;
+}
+
+.passwordInputBox {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#userName {
+  background: url("../../assets/user-6769.svg") no-repeat;
+  background-size: 16px;
+  background-position-x: 2%;
+  background-position-y: center;
+  background-color: #fafafa;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ::-webkit-input-placeholder { */
+/* Edge */
+/* padding-left: 1.2rem; */
+/* } */
+
+/* :-ms-input-placeholder { */
+/* Internet Explorer 10-11 */
+/* padding-left: 1.2rem; */
+/* } */
+
+/* ::placeholder { */
+/* padding-left: 1.2rem; */
+/* } */

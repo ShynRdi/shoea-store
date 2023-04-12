@@ -1,0 +1,42 @@
+.sampleShoeImg {
+  width: 100%;
+  position: relative;
+  background-color: #f3f3f3;
+  padding: 2rem;
+}
+.secondPart {
+  background-color: white;
+  height: 50vh;
+}
+
+.soldNumber {
+  background: #efefef;
+  font-size: smaller;
+}
+.backButton {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+}
+.addToCartBtn {
+  position: absolute;
+  bottom: 5rem;
+}
+.orderCounter {
+  background: #f3f3f3;
+}
+.add-to-cart {
+  width: 8rem;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  background-color: black;
+  color: #f3f3f3;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}

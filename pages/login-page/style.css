@@ -1,0 +1,64 @@
+.fixFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 5rem;
+}
+
+.signinBtn {
+  position: absolute;
+  bottom: 2rem;
+}
+
+#userEmail {
+  /* width: 10px; */
+  background: url("../../assets/email.svg") no-repeat;
+  background-position-x: 2%;
+  background-position-y: center;
+  background-color: #fafafa;
+}
+
+input {
+  outline-color: black;
+}
+
+input[type="password"] {
+  background-color: #fafafa;
+}
+
+input {
+  padding-left: 10%;
+}
+
+.passInput {
+  background: url("../../assets/passwordLogo.svg") no-repeat;
+  background-position-x: 2%;
+  background-position-y: center;
+}
+
+.passwordInputBox {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+
+#UserPass {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #fafafa inset !important;
+}

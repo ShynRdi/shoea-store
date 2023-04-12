@@ -1,0 +1,75 @@
+body {
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.theEndOfPage {
+  background-color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itemImg {
+  padding: 0.5rem;
+  background-color: #f3f3f3;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+.bodyPart {
+  margin-bottom: 180px;
+}
+
+.emptyBox {
+  padding-top: 12rem;
+  text-align: center;
+  display: none;
+}
+
+.insertingDatas {
+  justify-content: space-around;
+}
+.innerAddressContainer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+}
+.gpsIcon {
+  background-color: #f3f3f3;
+}
+.applyBtn {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+.special-part {
+  display: flex;
+  flex-direction: column;
+}
+.end-of-page {
+  margin: 0;
+}

@@ -1,0 +1,42 @@
+body {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.shoesBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  padding-bottom: 100px;
+}
+
+.shoeImg {
+  padding: 0.25rem;
+  height: 80%;
+  background-color: #f3f3f3;
+}
+.gridItem {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 0.75rem;
+}
+.gridItem img {
+  background-color: #f3f3f3;
+  border-radius: 1.25rem;
+  width: 100%;
+  padding: 0;
+}
+h4 {
+  margin: 0;
+}
+.imageHolder {
+  height: 393px;
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Out</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="d-flex align-content-center gap-3">
+      <a href="../cart-page/index.html">
+        <img src="../../assets/backButton.svg" alt="" />
+      </a>
+
+      <h3>Checkout</h3>
+    </header>
+    <h1>Shipping Address</h1>
+    <div class="innerAddressContainer">
+      <div class="d-flex align-items-center gap-3">
+        <img
+          src="../../assets/icons8-map-marker-50.png"
+          class="gpsIcon"
+          alt=""
+          width="36px"
+        />
+        <div class="d-flex flex-column">
+          <h2 class="locationTitle">Home</h2>
+          <p class="location">abbasAbad</p>
+        </div>
+      </div>
+      <img src="../../assets/icons8-pencil-48.png" alt="" class="locChanger" />
+    </div>
+    <hr />
+    <h1>Order List</h1>
+    <div class="bodyPart">
+      <!-- <div class="d-flex justify-content-between bg-light">
+            <img src="assets/adidas.svg" alt="" class="itemImg rounded-5 m-3" />
+            <div class="d-flex flex-column justify-content-around">
+                <h1>sdasdas</h1>
+                <span>232</span>
+            </div>
+            <span class="orderCounter rounded-circle">0</span>
+        </div> -->
+    </div>
+    <hr />
+    <div class="chosseShipping">
+      <h1>Chose Shipping</h1>
+
+      <a
+        href="../choose-shipping-page/index.html"
+        class="d-flex justify-content-between bg-light p-3 rounded-5 align-items-center"
+      >
+        <div class="d-flex gap-2">
+          <img src="../../assets/cargo-truck.png" alt="" />
+          <h5 class="choseShippingTypeText p-0">Choose Shipping Type</h5>
+        </div>
+        <h2>></h2>
+      </a>
+    </div>
+    <hr />
+    <h1>PromoCode</h1>
+    <div class="d-flex gap-3">
+      <input
+        type="text"
+        name="promoCode"
+        id="promoCode"
+        class="w-100 rounded-5 px-4 bg-light"
+        placeholder="Enter your Promo code"
+      />
+      <button class="btn btn-dark p-1 rounded-5 align-self-center promoBtn">
+        <h1>+</h1>
+      </button>
+    </div>
+    <div class="mt-5 bg-light p-4 rounded-5">
+      <div class="d-flex justify-content-between">
+        <p>Amount</p>
+        <p class="totalPrice"></p>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p>Shipping</p>
+        <p class="shippingPrice">-</p>
+      </div>
+      <hr />
+      <div class="d-flex justify-content-between">
+        <p>Total</p>
+        <p class="totalPricePlusShipping"></p>
+      </div>
+    </div>
+    <button class="btn btn-dark rounded-5 py-3 mt-3 paymentBtn">
+      Continue to Payment ->>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

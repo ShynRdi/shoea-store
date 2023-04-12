@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>What do we do?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="w-100 vh-100">
+      <div
+        id="intro-carousel"
+        class="carousel carousel-dark slide h-100 d-flex flex-column justify-content-between"
+        data-bs-interval="false"
+      >
+        <!-- SLIDES -->
+        <div class="carousel-inner mb-4" style="">
+          <!-- SLIDE 1 -->
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../../assets/sliderFirstPic.svg" class="d-block w-100" />
+            <p class="text-center fw-bold display-5">
+              We provide High quality Products just for you
+            </p>
+          </div>
+          <!-- SLIDE 2 -->
+          <div class="carousel-item">
+            <img
+              src="../../assets/sliderSecondPics.svg"
+              class="d-block w-100"
+            />
+            <p class="text-center fw-bold display-5">
+              Your satisfaction is our number one periority
+            </p>
+          </div>
+          <!-- SLIDE 3 -->
+          <div class="carousel-item">
+            <img src="../../assets/sliderThirdPic.svg" class="d-block w-100" />
+            <p class="text-center fw-bold display-5">
+              Let’s fulfill your fashion needs with shoearight now!
+            </p>
+          </div>
+        </div>
+
+        <!-- INDICATORS -->
+        <div class="carousel-indicators position-relative">
+          <button
+            type="button"
+            data-bs-target="#intro-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#intro-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#intro-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <!-- NEXT BUTTON -->
+        <button
+          type="button"
+          id="intro-carousel-next-button"
+          class="btn btn-dark custom-next-button mb-4 mx-4 round"
+          data-bs-target="#intro-carousel"
+          data-bs-slide="next"
+        >
+          NEXT
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
